@@ -1,0 +1,516 @@
+/*#e7dfdd*/
+
+.containercolumns {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.center {
+	background-color: #fcfbfb;
+}
+	
+.side {
+	background-color: white;
+}
+
+.headcontainer {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.menutext {
+	font-size: 0.9em;
+	font-family: "Roboto";
+	font-weight: lighter;
+}
+
+nav {
+	margin: 0.5px 0 0 2%;
+	
+}
+
+/*links before hover*/
+header ul li {
+	text-align: center;
+	display: inline-block;
+	padding: 0 1.4em 0 0;
+	
+	
+}
+
+
+
+a.menutext {
+	position: relative;
+	color: #a8afbe;
+	text-decoration: none;
+	
+	
+}
+
+a.menutext:hover {
+	color: #a239ca;
+}
+
+
+/*hover arrow line*/
+
+a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1.6px;
+	bottom: 0;
+	left: 0;
+	background-color: #4717f6;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	
+}
+
+a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+
+
+
+.ingress {
+		font-family: "Roboto";
+		color: #a8afbe;
+		min-width: 200px;
+		max-width: 201px;
+}
+
+.topName {
+	color: #a239ca;
+	font-weight: 100;
+}
+
+.chapter {
+	
+	
+	background-color: #a8afbe;
+	display: block;
+	flex-direction: row;
+	font-family: "Roboto";
+	font-size: 23px;
+	color: #fcfbfb;
+	text-align: center;
+	padding: 10px 0 10px;
+
+	
+
+}
+
+
+.container {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 20px;
+
+}
+
+.container a:hover img {
+	opacity: 0.15;
+}
+
+.container a img {
+	transition: opacity 0.3s ease-in-out;
+	background-color: black;
+}
+
+a {
+	position: relative;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a8afbe;
+}
+
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px 0 30px;
+}
+
+.gallery-item {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.gallery-item img {
+	position: absolute;
+}
+
+.text-wrapper {
+	position: relative;
+	width: 230px;
+	height: 230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	padding: 10px;
+	color: #fff;
+	opacity: 0;
+}
+
+.text-wrapper:hover {
+	transition: all 0.8s ease;
+	background: #4717f6;
+	opacity: 0.8;
+	font-family: "Roboto";
+}
+
+.text {
+	max-width: 250px;
+}
+
+#back {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	color: #a239ca;
+	padding: 30px 0 30px 0;
+	margin: 0;
+}
+
+.sub {
+	background-color: #fcfbfb;
+	justify-content: space-around;
+	color: #a8afbe;
+	font-size: 23px;
+	font-family: "Roboto";
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+#lastback {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	color: #a239ca;
+	padding: 30px 0 30px 0;
+	margin: 0;
+	background-color: #a8afbe;
+}
+
+#icons {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding-top: 20px;
+	background-color: #a8afbe;
+	padding: 80px 300px 40px 300px;
+
+}
+
+#icon {
+	max-width: 50px;
+}
+
+/*.node circle {
+	fill: #4717f6;
+	stroke: #a239ca;
+	stroke-width: 3px;
+}
+
+.node text {
+	font: 12px "Roboto";
+}
+
+.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 2px;
+}*/
+
+#dashboard {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#dashboard1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*
+
+.title h1 {
+	font-family: "Roboto";
+}
+
+.axis {
+	font-family: "Roboto";
+	font: 20px;
+}
+
+
+
+
+g {
+	font-family: "Roboto";
+	font: 20px;
+	color: #a8afbe;
+}
+
+
+
+
+
+
+
+
+
+
+*/
+
+g.x.axis text {
+	font: red;
+}
+
+.axis {  
+	font: 20px "Roboto"; 
+	/*color:  red;*/
+	
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+.bar text {
+	display: none;
+}
+
+.legendFreq,
+.legendPerc {
+	display: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis path {
+	display: none;
+}
+
+.tick line {
+	stroke: none;
+}
+
+.legend {
+	margin-bottom: 76px;
+	display: inline-block;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+
+.legend td {
+	padding: 4px 5px;
+	vertical-align: bottom;
+}
+
+path {
+	stroke: #fff;
+}
+
+path:hover {
+	opacity: 0.9;
+}
+
+rect:hover {
+	fill: #a239ca;
+}
+
+tbody {
+	font-family: "Roboto";
+	font: 20px;
+	color: #a8afbe;
+}
+
+
+
+/* justify-content: space-around;*/
+
+
+/* mob chart*/
+.stackedbar {
+  display: flex;
+  
+}
+
+/*body {
+	background-color: #fcfbfb;
+}*/
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+
+
+.bar {
+  display: flex;
+  
+  flex-direction: row;
+  padding: 5px 0 5px;
+  max-width: 80%;
+}
+
+.skill {
+  width: 15%;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Roboto";
+  font-size: 10px;
+}
+
+#htmltheoretical, #csstheoretical {
+  background-color: #00FFFF;
+  width: 27%;
+}
+
+#htmlpractical, #csspractical, #sqlpractical {
+  background-color: #099FFF;
+  width: 27%;
+}
+
+#htmlautonomous, #cssautonomous, #sqlautonomous {
+  background-color: #0033FF;
+  width: 27%;
+}
+
+#javascripttheoretical, #pythontheoretical {
+  background-color: #00FFFF;
+  width: 22%;
+}
+
+#javascriptpractical {
+  background-color: #099FFF;
+  width: 11%;
+}
+
+#javascriptautonomous {
+  background-color: #0033FF;
+  width: 16%;
+}
+
+#javascriptrest {
+  background-color: #fcfbfb;
+  width: 32%;
+}
+
+#sqltheoretical {
+	background-color: #00FFFF;
+    width: 16%;
+}
+
+#sqlrest {
+	background-color: #fcfbfb;
+    width: 11%;
+}
+
+#pythonpractical {
+	background-color: #099FFF;
+    width: 22%;
+}
+
+#pythonautonomous {
+	background-color: #0033FF;
+    width: 22%;
+}
+
+#pythonrest {
+	background-color: #fcfbfb;
+    width: 15%;
+}
+
+#csharppractical {
+	background-color: #099FFF;
+    width: 8%;
+}
+
+#csharptheoretical {
+	background-color: #00FFFF;
+    width: 3%;
+}
+
+#csharpautonomous {
+	background-color: #0033FF;
+    width: 3%;
+}
+
+#csharprest {
+	background-color: #fcfbfb;
+    width: 67%;
+}
+/*end mob chart*/
+
+
+
+
+
+

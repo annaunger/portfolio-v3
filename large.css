@@ -1,0 +1,30 @@
+@media screen and (min-width: 1025px) {
+	.center {
+		width: 80%;
+	}
+	
+	.side {
+		width: 10%;
+	}
+	.nav {
+		width: 50%;
+	}
+
+	.headcontainer {
+		padding-bottom: 200px;
+	}
+
+	.ingress {
+		width: 50%;
+		text-align: right;
+		padding-left: 800px;
+		padding-right: 25px;
+		
+	}
+
+	.containermob, #projectsmob, .stackedbar, .message {
+		display: none;
+	}
+	
+}
+

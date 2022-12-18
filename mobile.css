@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+	
+	.inprogress {
+		display: none;
+	}
+	/*
+	.center {
+		width: 100%;
+	}
+	
+	.side, .menuitem, .container2, #projectspc, #dashboard, #subtools, #dashboard1 {
+		text-align: center;
+	} 
+	.ingress, #dashboard, #dashboard1, #subtools, .container2, #projectspc {
+		display: none;
+	}
+	*/
+
+	
+}
